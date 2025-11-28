@@ -16,28 +16,41 @@
         <a href="#">
           <img class="max-w-22" src="../assets/img/logo.png" alt="logo" />
         </a>
-        <ul class="flex md:gap-8 gap-3 flex-wrap">
+
+        <!-- HAMBURGER -->
+        <button id="hamburger-menu" class="md:hidden text-green-700">
+          <i data-feather="menu"></i>
+        </button>
+
+        <!-- MENU -->
+        <ul
+          class="navbar-nav md:flex md:gap-8 gap-3 flex-col md:flex-row absolute md:static top-16 left-0 right-0 md:bg-transparent p-5 md:p-0 hidden bg-lime-500/70"
+        >
           <li>
             <a
-              class="text-green-700 md:font-bold hover:text-green-900"
+              class="text-white md:text-green-700 md:font-bold hover:text-green-900"
               href="../index.html"
               >Home</a
             >
           </li>
           <li>
-            <a class="text-green-700 md:font-bold hover:text-green-900" href="#"
+            <a
+              class="text-white md:text-green-700 md:font-bold hover:text-green-900"
+              href="about.html"
               >About</a
             >
           </li>
           <li>
             <a
-              class="text-green-700 md:font-bold hover:text-green-900"
+              class="text-white md:text-green-700 md:font-bold hover:text-green-900"
               href="produk.html"
               >Product</a
             >
           </li>
           <li>
-            <a class="text-green-700 md:font-bold hover:text-green-900" href="#"
+            <a
+              class="text-white md:text-green-700 md:font-bold hover:text-green-900"
+              href="kontak.html"
               >Contact</a
             >
           </li>
@@ -320,5 +333,6 @@
     <script>
       feather.replace();
     </script>
+    <script src="../assets/js/script.js"></script>
   </body>
 </html>
